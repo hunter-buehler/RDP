@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a6713b73-eb42-4a36-a3d4-e8d2d7f8c490/appservices/subscriptions/a6713b73-eb42-4a36-a3d4-e8d2d7f8c490/resourceGroups/RDP/providers/Microsoft.Web/sites/RocketDrones",
+    "appService.deploySubpath": "."
+}

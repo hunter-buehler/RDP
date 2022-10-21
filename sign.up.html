@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Rocket Drones Portal</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/rocket_drones.jpg">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- core css -->
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/flag-icon.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="page-title">
+                            <h1>Sign up</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-heading border bottom">
+                                        <h4 class="card-title">Personal Information</h4>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="mrg-top-40">
+                                            <div class="row">
+                                                <div class="col-md-8 ml-auto mr-auto">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label>First Name</label>
+                                                                    <input type="text" placeholder="Enter email" class="form-control" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label>Last Name</label>
+                                                                    <input type="text" placeholder="Enter email" class="form-control" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <label>Email address (Email will be used when logging in)</label>
+                                                                    <input type="email" placeholder="Enter email" class="form-control" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <label>New Password</label>
+                                                                    <input type="password" placeholder="Password" class="form-control" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <label>Re-Type Password</label>
+                                                                    <input type="password" placeholder="Password" class="form-control" required>
+                                                                    <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  <a href="">I Agree To The Terms & Coditions</a>
+                                                                    <br><br>
+                                                                </div>
+                                                            </div>
+                                                         </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-heading border bottom">
+                                        <h4 class="card-title">Tell Us About Yourself</h4>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="card-block">
+                                            <div class="row">
+                                                <div class="col-md-8 ml-auto mr-auto">
+                                                    <form role="form" id="form-validation">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label>Racer Nickname</label>
+                                                                    <input type="text" class="form-control" name="name" placeholder="Enter your Nickname" required minlength="8">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label>School</label>
+                                                                    <input type="email" class="form-control" name="email" placeholder="Enter School Name" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                            <div class="col-md-5">
+                                                                <div class="form-group">
+                                                                    <label for="position-select">Please Select Position</label>
+                                                                    <select name="position" id="position-select" required>
+                                                                        <option value="">--Please Select Position--</option>
+                                                                        <option value="Racer">Racer</option>
+                                                                        <option value="Student">Student</option>
+                                                                        <option value="Coach">Coach</option>
+                                                                        <option value="Teacher">Teacher</option>
+                                                                        <option value="Parent">Parent</option>
+                                                                </div>
+                                                            </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-20">
+                                                                <div class="form-group">
+                                                                  
+                                                                    <textarea id="tell us about yourself" name="tell us about yourself"
+                                                                              rows="5" cols="75"> Tell us about yourself..
+                                                                            
+                                                                    </textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn btn-primary">Submit</button>
+                                                        <button class="btn btn-default">Clear</button>
+                                                        </div>
+                                                        </div>
+                                                    
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- Content Wrapper END -->
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assets/vendors/PACE/pace.min.js"></script>
+    <script src="assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/solid.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="assets/js/app.js"></script>
+    <!-- endbuild -->
+
+    <!-- page plugins js -->
+    <script src="assets/vendors/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <!-- page js -->
+    <script src="assets/js/forms/form-validation.js"></script>
+
+</body>
+
+</html>
