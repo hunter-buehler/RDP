@@ -1,4 +1,4 @@
-00// Main JavaScripts
+// Main JavaScripts
 (function ($) {
 	'use strict';
 	
