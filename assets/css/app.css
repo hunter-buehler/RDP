@@ -1,4 +1,24 @@
-
+/*------------------------------------------------------------------
+* Bootstrap Responsive Web Application Template
+* Email: heyalexluna@gmail.com
+* Version: 1.1
+* Last change: 2020-03-02
+* Author: Alexis Luna
+* Copyright 2019 Alexis Luna
+* Website: https://github.com/mralexisluna/bootstrap-responsive-web-application-template
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+1. General
+2. Helper style
+3. Plugins
+4. Elements
+5. Apps
+6. Changes
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[1. General]
+------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
 
 html,
@@ -10,8 +30,8 @@ body {
 body {
     font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #f1f1f1;
+    color: #888da8;
     line-height: 1.5;
     letter-spacing: 0.2px;
     overflow-x: hidden;
@@ -5497,7 +5517,7 @@ button:disabled {
 }
 
 .btn-default {
-    color: #a30000;
+    color: #515365;
     background-color: #ffffff;
     border-color: #d4deee;
     font-weight: 500;
@@ -5506,47 +5526,45 @@ button:disabled {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active {
-    color: #a30000;
+    color: #515365;
     background-color: #edf2f8;
     border-color: #edf2f8;
 }
 
 .btn-default:active:hover,
 .btn-default:active:focus {
-    color: #a30000;
+    color: #515365;
     background-color: #edf2f8;
     border-color: #edf2f8;
 }
 
 .btn-default.active:hover,
 .btn-default.active:focus {
-    color: #a30000;
+    color: #515365;
     background-color: #edf2f8;
     border-color: #edf2f8;
 }
 
 .btn-primary {
-    background-color: #c50101;
-    border-color: #c50101;
+    background-color: #2185d0;
+    border-color: #2185d0;
     color: #ffffff;
-    height: 50%;
-    width: 75%
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
     color: #ffffff;
-    background-color: #c50101;
-    border-color: #c50101;
+    background-color: #8c8aeb;
+    border-color: #8c8aeb;
 }
 
 .btn-primary:active {
-    background-color: #c50101;
+    background-color: #625ee3;
     border-color: #625ee3;
 }
 
 .btn-primary.active {
-    background-color: #c50101;
+    background-color: #625ee3;
     border-color: #625ee3;
 }
 
@@ -5638,8 +5656,8 @@ button:disabled {
 }
 
 .btn-info {
-    background-color: #c50101;
-    border-color: #c50101;
+    background-color: #00b5ad;
+    border-color: #00b5ad;
     color: #ffffff;
 }
 
@@ -9594,33 +9612,3 @@ glyphs.character-mapping {
     display: inline-block;
     color: #a9a9a9;
 }
-label,
-textarea {
-    font-size: .8rem;
-    letter-spacing: 1px;
-    text-align: justify;
-}
-textarea {
-    padding: 25px;
-    max-width: 200%;
-    line-height: 1;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-    text-align: justify;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-select {
-    width: 225px;
-    height: 30px;
-    border: 1px solid #999;
-    font-size: 18px;
-    color: #c50101;
-    background-color: #eee;
-    border-radius: 5px;
-    box-shadow: 4px 4px #ccc;
-  }
